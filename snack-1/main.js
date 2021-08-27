@@ -9,7 +9,7 @@ for ( i=0; i<5; i++ ){
     sommaNumeri += numeroUtente;
 }
 
-console.log(sommaNumeri)
+console.log(sommaNumeri);
 
 var sommaNumeri2 = 0;
 
@@ -20,4 +20,4 @@ while ( contatore < 5)  {
     contatore++
 }
 
-console.log(sommaNumeri2) 
+console.log(sommaNumeri2); 
