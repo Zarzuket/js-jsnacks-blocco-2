@@ -8,14 +8,12 @@
 var big = [ 1 , 2 , 3 , 4 , 5]
 var small = [1 , 2 ,  3]
 
-// for( i=0; i <big.length; i++){
-//     console.log(big[i])
-// }
+console.log(big.length);
+console.log(small.length);
 
-// for ( i=0; i < small.length; i++){
-//     console.log(small[i]);
-// }
+while (big.length > small.length){
+   small.push(1)
+}
 
-// if ( big[i] > small[i] ){
-
-// }
+console.log(big.length);
+console.log(small.length);
