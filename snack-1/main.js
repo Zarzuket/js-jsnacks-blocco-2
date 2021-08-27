@@ -5,8 +5,19 @@
 var sommaNumeri = 0;
 
 for ( i=0; i<5; i++ ){
-    var numeroUtente =parseInt(prompt("inserisci un numero"));
+    var numeroUtente = parseInt(prompt("inserisci un numero"));
     sommaNumeri += numeroUtente;
 }
 
 console.log(sommaNumeri)
+
+var sommaNumeri2 = 0;
+
+contatore = 0;
+while ( contatore < 5)  {
+    var numeroUtente = parseInt(prompt("inserisci un numero"));
+    sommaNumeri2 += numeroUtente;
+    contatore++
+}
+
+console.log(sommaNumeri2) 
