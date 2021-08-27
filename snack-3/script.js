@@ -3,13 +3,11 @@ var cognomiInvitati = ["Miuz" , "Frenk" , "Trepuz"]
 var nuoviInvitati = []
 
 
-for ( i=0; i<nomiInvitati.length ; i++){
-    console.log(Math.floor(Math.random(nomiInvitati[i]) *3));
-    // console.log(nomiInvitati[i]);
+for ( i=0; i<3 ; i++){
+    var nomeRandom = Math.floor(Math.random() * nomiInvitati.length);
+    var cognomeRandom =Math.floor(Math.random() * cognomiInvitati.length);
+    var nomeCognomeRandom = nomiInvitati[nomeRandom] + " " + cognomiInvitati[cognomeRandom];
+    nuoviInvitati.push(nomeCognomeRandom);
 }
 
-
-for ( i=0; i<cognomiInvitati.length ; i++){
-    console.log(Math.floor(Math.random(cognomiInvitati[i]) *3));
-}
-
+console.log(nuoviInvitati)
