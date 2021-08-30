@@ -12,7 +12,7 @@ console.log(big.length);
 console.log(small.length);
 
 while (big.length > small.length){
-   small.push(1)
+   small.push(Math.floor(Math.random() *100));
 }
 
 console.log(big.length);
